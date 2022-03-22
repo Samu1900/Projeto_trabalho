@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+/*Logo*/
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:40px 190px;
+    z-index: 10000;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header .logo{
+    position: absolute;
+    left: 8%;
+    right:90%;
+    top: 50%;
+    bottom:97%;
+}
+
+.titleLogo {
+    position: absolute;
+    left: 10.8%;
+    right:89%;
+    top: 57%;
+    bottom:97.6%;
+}
+
+.bloco {
+   position: absolute;
+   left: 85%;
+   right: 8%;
+   width: 8%;
+   top: 40%;
+   bottom:97%;
+   background: #000;
+   height: 45px;
+
+}
+
+header .btn{
+    font-size: 1em;
+    color: #fff;
+    background: #000;
+    display: inline-block;
+    padding:13px 30px;
+    margin-top:20px;
+    margin-left:95%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+section{
+    padding:150px;
+}
+
+.content{
+   margin-top: 30px;
+   padding:0;
+   
+}
+section .content h2 {
+    height: 131px;
+    right: 51%;
+    font-size:80px;
+    font-weight: 700;
+    
+    
+}
+
+section .content h3{
+    height: 131px;
+    right: 51%;
+    color:#4AC959;
+    font-size:60px;
+    font-weight: 300;
+    line-height:1px;
+}
+
+section .content p{
+    
+    height:24px;
+    right:66%;
+    font-size:24px;
+    font-weight:600;
+    line-height:24px;
+}
+.btn{
+    font-size: 1em;
+    color: #fff;
+    background: #4AC959;
+    display: inline-block;
+    padding:13px 30px;
+    margin-top:20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+section .logoGrande img{
+    position: absolute;
+    top:10px;
+    left:0;
+    width: 30%;
+    margin-left: 70%;
+    
+}
+
+section .logoGrande .img1{
+    position: absolute;
+    top: 130px;
+    left: 120px;
+    width: 20%;
+    height: 50%;
+    object-fit: cover;
+ }
